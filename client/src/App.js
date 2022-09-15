@@ -22,6 +22,8 @@ if (localStorage.token) {
   setAuthToken(localStorage.token);
 }
 
+
+
 function App() {
   let navigate = useNavigate();
   const [state, dispatch] = useContext(UserContext);
